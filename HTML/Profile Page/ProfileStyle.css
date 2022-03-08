@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 2px solid orange; */
+    text-decoration: none;
+    font-family: cursive;
+    list-style: none;
+}
+.topbar{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+}
+.barcont{
+    display: flex;
+    margin-left: 15%;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sbutton{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.profile, .home, .myprofile, .connections, .signout{
+    color: white;
+}
+.home, .connections{
+    color: #aaaaaa;
+}
+.signout{
+    background-color: #17a2b8;
+    font-size: 16px;
+}
+
+.card1{
+    width: 40%;
+    height: 350px;
+    background-color: white;
+    position: fixed;
+    top:120px;
+    left: 15%;
+}
+
+#firstimg{
+    width:70px;
+    border: 4px solid #cfcfcf;
+    border-radius: 39px;
+    margin:2px;
+    position: absolute;
+    top:62px;
+    left:41px;
+}
+.bottom{
+    width: 99%;
+    height: 250px;
+    border: 4px solid #cfcfcf;
+    position: absolute;
+    top:100px;
+    left:0px;
+}
+.topbox{
+    width: 99%;
+    height: 96px;
+    background-color:#17a2b8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 4px solid #17a2b8;
+}
+#head1{
+    position: absolute;
+    top:40px;
+    left:24px;
+    font-family: cursive;
+    font-size: 25px;
+}
+#secimg{
+    width: 12px;
+    position: absolute;
+    left: 24px;
+    top: 86px;
+}
+h2{
+    position: absolute;
+    left: 46px;
+    bottom: 142px;
+    font-family: cursive;
+    font-size: 18px;
+}
+.p1, .p2{
+    position: absolute;
+    left: 24px;
+    bottom: 82px;
+    font-size: 16px;
+    font-family: cursive;
+}
+.p2{
+    position: absolute;
+    left: 24px;
+    bottom: 58px;
+}
+#gear{
+    color: #17a2b8;
+    width: 20px;
+    position: absolute;
+    left: 24px;
+    bottom: 30px;
+}
+.edit{
+    color: #17a2b8;
+    font-family: cursive;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+.card2{
+    width: 40%;
+    height: 350px;
+    position: fixed;
+    top:530px;
+    left: 15%;
+}
+.c2box{
+    background-color: #333333;
+    width: 99%;
+    height:30px;
+    border: 4px solid #333333;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+.edu{
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 24px;
+}
+.c2box2{
+    width: 99%;
+    height: 304px;
+    background-color: white;
+    border: 4px solid #cccccc;
+    position: absolute;
+    bottom: 0px;
+}
+.p11, .p22, .p33{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.container2{
+    width: 25%;
+    height: 450px;
+    position: fixed;
+    top:120px;
+    right: 15%;
+    background-color: white;
+}
+.requests{
+    width: 98.5%;
+    height: 200px;
+    display: block;
+    border: 4px solid #cccccc;
+
+}
+.ltitle{
+    background-color: white;
+}
+.lheader{
+    color: white;
+    background-color: #333333;
+    border: 4px solid #333333;
+    display: block;
+    Height: 36px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul> li> img{
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+.todd, .Phill{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4px;
+    align-items: center;
+}
+#yes{
+    position: absolute;
+    left: 75%;
+}
+#namet, #namep{
+    position: absolute;
+    left: 16%;
+}
+#yourc{
+    background-color: #333333;
+    color: white;
+    padding-left: 10px;
+    font-size: 20px;
+    height: 36px;
+    border: 4px solid #333333;
+}
+#c1, #c2, #c3, #c4{
+    display: flex;
+    padding-right: 4px;
+    align-items: center;
+}
+div>div>div>img{
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+div>div>div>span{
+    position: absolute;
+    left: 16%;
+}
+.contacts{
+    border: 4px solid #cccccc;
+    height: 140px;
+}
+.contactsbox{
+    margin-top: 20px;
+}
+.more{
+    padding-left: 10px;
+    text-decoration: underline;
+    border: 4px solid #cccccc;
+}

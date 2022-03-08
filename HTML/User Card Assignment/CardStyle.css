@@ -1,0 +1,81 @@
+.Basic{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    position: fixed;
+    top:40px;
+    left: 70px;
+}
+
+#firstimg{
+    width:70px;
+    border: 4px solid #cfcfcf;
+    border-radius: 39px;
+    margin:2px;
+    position: absolute;
+    top:62px;
+    left:41px;
+}
+.bottom{
+    width: 600px;
+    height: 250px;
+    border: 4px solid #cfcfcf;
+    position: absolute;
+    top:100px;
+    left:0px;
+}
+.topbox{
+    width: 600px;
+    height: 96px;
+    background-color:#17a2b8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 4px solid #17a2b8;
+}
+#head1{
+    position: absolute;
+    top:22px;
+    left:24px;
+    font-family: cursive;
+    font-size: 25px;
+}
+#secimg{
+    width: 12px;
+    position: absolute;
+    left: 24px;
+    top: 86px;
+}
+h2{
+    position: absolute;
+    left: 46px;
+    bottom: 128px;
+    font-family: cursive;
+    font-size: 18px;
+}
+.p1, .p2{
+    position: absolute;
+    left: 24px;
+    bottom: 82px;
+    font-size: 16px;
+    font-family: cursive;
+}
+.p2{
+    position: absolute;
+    left: 24px;
+    bottom: 58px;
+}
+#gear{
+    color: #17a2b8;
+    width: 20px;
+    position: absolute;
+    left: 24px;
+    bottom: 30px;
+}
+.edit{
+    color: #17a2b8;
+    font-family: cursive;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}

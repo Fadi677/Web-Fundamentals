@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    /* border: 2px solid red; */
+}
+.userbox{
+    width: 40%;
+    height: 150px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+.smallbox{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+#header{
+    flex: 5;
+}
+#likesnumber{
+    flex: 1;
+}
+#likebutton1, #likebutton2, #likebutton3{
+    flex: 1;
+    background-color: #ffd966;
+    box-shadow: 3px 3px 3px black;
+}
+#sometext{
+    margin-left: 20px;
+}

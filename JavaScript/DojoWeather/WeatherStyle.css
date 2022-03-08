@@ -1,0 +1,84 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    text-decoration: none;
+    font-family: cursive;
+    /* border: 1px solid orange; */
+}
+header{
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: #9fc5f8;
+    font-size: 32px;
+    padding: 8px 60px;
+}
+h1{
+    flex: 3;
+}
+header a{
+    flex: 1;
+    color: white;
+}
+.thecity{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 60px;
+    align-items: center;
+    width: 93.5%;
+    height: 70px;
+    border-bottom: 3px solid black;
+}
+.temperaturebox{
+    width: 93.5%;
+    height: 390px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+.todaybox{
+    background-color: #eeeeee;
+    border-radius: 6px;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+div img{
+    width: 110px;
+    border-radius: 55px;
+}
+div h1, div img, div p, div span{
+    margin-bottom: 22px;
+}
+#day, #night{
+    margin:0px 40px;
+}
+#day{
+    color: #d0312e;
+}
+#night{
+    color:#2b78e4;
+}
+footer{
+    width: 93.5%;
+    height: 130px;
+    margin:30px 0 0 60px;
+    background-color: #eeeeee;
+    border: 3px solid black;
+    align-items: center;
+    display: flex;
+}
+.text{
+    flex: 6;
+}
+#accept{
+    flex: 1;
+    margin-right: 30px;
+    padding: 3px;
+    background-color: #9fc5f8;
+    box-shadow: 3px 3px 3px;
+}
+#more{
+    color: #195e9a;
+}

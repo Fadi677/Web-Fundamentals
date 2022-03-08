@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weather</title>
+    <link rel="stylesheet" href="WeatherStyle.css">
+</head>
+<body>
+    <header>
+        <h1>DojoWeather</h1>
+        <a onclick="alertme(this)" href="#">Burbank</a>
+        <a onclick="alertme(this)" href="#">Chicago</a>
+        <a onclick="alertme(this)" href="#">Dallas</a>
+    </header>
+    <div class="thecity">
+        <h2>San Jose</h2>
+        <div><label>show temperature in</label>
+            <select onchange="exchange(this)">
+                <option>°C</option>
+                <option>°F</option>
+            </select>
+    </div>
+    </div>
+    <div class="temperaturebox">
+        <div class="todaybox">
+            <h1>Today</h1>
+            <img src="some_rain.png">
+            <p>some rain</p>
+            <span id="day"><span id="temp1">24</span><span>°</span></span><span id="night"><span id="temp2">18</span><span>°</span></span>
+        </div>
+        <div class="todaybox">
+            <h1>Today</h1>
+            <img src="some_sun.png">
+            <p>some sun</p>
+            <span id="day"><span id="temp3">24</span><span>°</span></span><span id="night"><span id="temp4">18</span><span>°</span></span>
+        </div>
+        <div class="todaybox">
+            <h1>Today</h1>
+            <img src="some_clouds.png">
+            <p>some clouds</p>
+            <span id="day"><span id="temp5">24</span><span>°</span></span><span id="night"><span id="temp6">18</span><span>°</span></span>
+        </div>
+        <div class="todaybox">
+            <h1>Today</h1>
+            <img src="some_sun.png">
+            <p>some sun</p>
+            <span id="day"><span id="temp7">24</span><span>°</span></span><span id="night"><span id="temp8">18</span><span>°</span></span>
+        </div>
+    </div>
+    <footer>
+        <img src="cookie.png" id="cookieimg">
+        <div class="text">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize<br>
+            content and ads, to provide social media features and to<br>
+            analyse our traffic.<a href="#" id="more">Read more...</a></p>
+        </div>
+        <div><input type="submit" onclick="Accept()" id="accept" value="I Accept"></div>
+    </footer>
+<script src="WeatherAction.js"></script>
+</body>
+</html>
