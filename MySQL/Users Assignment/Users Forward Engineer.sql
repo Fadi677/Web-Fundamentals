@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS `users_schema`.`users` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `first_name` VARCHAR(45) NULL,
   `last_name` VARCHAR(45) NULL,
-  `e-mail` VARCHAR(255) NULL,
+  `email` VARCHAR(255) NULL,
   `created_at` DATETIME NULL,
   `updated_at` DATETIME NULL,
   PRIMARY KEY (`id`))

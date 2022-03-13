@@ -1,0 +1,33 @@
+use users_schema;
+select * from users;
+INSERT INTO users (first_name, last_name) VALUES('john', 'smith');
+INSERT INTO users (first_name, last_name) VALUES('john', 'smith');
+INSERT INTO users (first_name, last_name) VALUES('john', 'smith');
+SET SQL_SAFE_UPDATES=0;
+DELETE FROM users where id>1;
+select * from users;
+INSERT INTO users (first_name, last_name) 
+VALUES('randy', 'orton');
+select * from users;
+INSERT INTO users (first_name, last_name) 
+VALUES('phill', 'jackson');
+select * from users;
+UPDATE `users_schema`.`users` SET `e-mail` = 'john@smith.com' WHERE (`id` = '1');
+UPDATE `users_schema`.`users` SET `e-mail` = 'randy@orton.com' WHERE (`id` = '2');
+UPDATE `users_schema`.`users` SET `e-mail` = 'phill@jackson.com' WHERE (`id` = '3');
+select * from users;
+update users set e-mail = "any@email.com" where id=1;
+
+select * from users where email="any@email.com";
+
+select * from users where id=3;
+
+update users set first_name="Pancakes" where id=3;
+
+SET SQL_SAFE_UPDATES=0;
+DELETE FROM users where id=2;
+
+SELECT * FROM users order by first_name;
+
+select * from users order by first_name desc;
+
